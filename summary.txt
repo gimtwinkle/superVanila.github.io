@@ -1,0 +1,32 @@
+
+const : 재정의 불가능, 재선언 불가능
+let : 재정의 가능, 재선언 불가능
+var : 재정의 가능, 재선언 가능 (구버전 / 실수로 업데이트 되어도 오류를 찾기가 힘든 단점)
+
+array : 설명이 필요 없을 떄 
+        ex) const week = ['mon', 'tue'];
+        week.push ="wed";와 같이 정렬 내용 추가 가능
+
+object : 설명이 필요할때 
+        ex) const person = {name : '', age : ''}; 
+        person.name < 으로 선택하면 되고 재정의 가능 ex) person.name = person.name + "a";
+
+parameter, argument : function에게 주는 커스텀 정보 (인자)
+           ex 1) function sayhello(name,age //매개변수 ){
+                    console.log("hello! my name is "+ name + ". " + age + " years old");
+                }
+
+                sayhello("bitna",12 //인자);
+                출력값 : hello! my name is bitna. 12 years old
+
+           ex 2) function plus(a,b){
+                    console.log(a+b);
+                }
+
+                plus(5, 10);
+                출력값 : 15
+
+recap:
+
+
+

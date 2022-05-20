@@ -15,18 +15,25 @@ parameter, argument : function에게 주는 커스텀 정보 (인자)
            ex 1) function sayhello(name,age //매개변수 ){
                     console.log("hello! my name is "+ name + ". " + age + " years old");
                 }
-
                 sayhello("bitna",12 //인자);
-                출력값 : hello! my name is bitna. 12 years old
+                
+                = 출력값 : hello! my name is bitna. 12 years old
 
            ex 2) function plus(a,b){
                     console.log(a+b);
                 }
-
                 plus(5, 10);
-                출력값 : 15
+                
+                = 출력값 : 15
 
-recap:
+           ex 3) function plus(a){
+                    console.log(a);
+                }
+                plus(5, 10);
+                
+                = 출력값 : 5  (인자가 몇개던 첫번째 인자만 받는다.)
+
+returns:
 
 
 
